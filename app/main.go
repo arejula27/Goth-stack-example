@@ -35,7 +35,7 @@ func initRoutes(app *fiber.App) {
 	
 
 	app.Get("/", handlers.HandleHomePage)
-	app.Get("/cookbooks",handlers.HandleCookBookPage)
+	app.Get("/cookbook",handlers.HandleCookBookPage)
 	
 	
 

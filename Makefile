@@ -6,7 +6,7 @@ css:
 
 run: build-app
 	@./bin/app
-dev: css
+dev: 
 	air
 
 
